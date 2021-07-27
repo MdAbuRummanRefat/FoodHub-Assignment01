@@ -43,9 +43,116 @@ h1{
     padding:5%;
 }
 .half-width img{
-    width:100%;
+    width:90%;
 }
 .margin{
     margin-top:80px;
     margin-left:50px;
+}
+.button{
+    text-decoration: none;
+    background-color:coral;
+    background-image: linear-gradient(to left, rgb(252, 95, 38),rgb(238, 122, 80));
+    padding:15px 25px;
+    border-radius:25px;
+    color:white;
+    font-weight:700;
+}
+p{
+    text-align: justify;
+}
+#color-gray{
+    color:gray;
+    margin-bottom: 70px;
+}
+#contact {
+    background:aliceblue;
+    height: 500px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: grey;
+    padding: 40px 0;
+    padding-top: 10px;
+}
+.inner-contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input,textarea {
+    width: 97%;
+    border: none;
+    outline: none;
+    padding: 10px ;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #bebebe;
+}
+
+.input-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-holder input:last-child {
+    margin-left: 10px;
+}
+.contact-btn {
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+.footer{
+    height: 150px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:60px;
+    background-color: black;
+}
+footer {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-inside h3 {
+    color: orangered;
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.footer-inside p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+.footer-text {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.footer-text a {
+    text-decoration: none;
+    color: orangered;
 }
