@@ -27,6 +27,9 @@ body{
     font-size: 30px;
     display: block;
 }
+.home-part{
+    
+}
 .flexible-container{
     display:flex;
 }
